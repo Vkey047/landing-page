@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image:url(lib4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 40px;
+    font-size: inline;
+    color: #6c8aef;
+}
+
+nav ul{
+    float:right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: bisque;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 8px 7px;
+}
+nav ul li a:hover{
+    background-color: #6c8aef;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #6c8aef;
+}
+.article{
+    width:50%;
+    margin-top: 100px;
+    text-align:left;
+    transform: translateY(25);
+}
+.article h1{
+    color:rgb(245, 243, 246);
+    font-size: 35px;
+    letter-spacing:1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.article p{
+    color: bisque;
+  line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.article .bttn{
+    color: #fff;
+    padding: 12px 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #6c8aef;
+
+}
+
+.article .bttn:hover{
+    background-color: #9cf078;
+    transition: 0.5s ease;
+}
+
+.About{
+    width:80%;
+    margin-top: 50px;
+    text-align:left;
+    transform: translateY(25);
+}
+.About h1 {
+    color:rgb(245, 243, 246);
+    font-size: 35px;
+    letter-spacing:1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.About p{
+    color: bisque;
+  line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.About .rdm{
+    color: #fff;
+    padding: 12px 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #6c8aef;
+
+}
+
+.About .rdm:hover{
+    background-color: #9cf078;
+    transition: 0.5s ease;
+}
